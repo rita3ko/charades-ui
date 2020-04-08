@@ -17,28 +17,20 @@ class PhraseGenerator extends React.Component {
   }
 
   render() {
-      if(this.state.phrase == null) {
-        return (
-            <div class="flex flex-col items-center w-64 border-seafoam bg-pink m-2 border-2 h-48">
-                <button onClick={this.handleClick} class="flex-initial hover:bg-red hover:text-pink">
-                    Draw phrase! 🔖
-                </button>
-                <div>
-                </div>
-            </div>
-        )
-      } else {
-          return (
-              <div class="flex w-64 border-seafoam items-center flex-col bg-pink h-48">
-                <button onClick={this.handleClick} class="hover:bg-red hover:text-pink m-2"> 
-                    Draw phrase! 🔖
-                </button>
-                <div>
-                  <h1 class="text-xl py-2 px-4 m-2 text-red">{this.state.phrase}</h1>
-                </div>
-              </div>
-          )
-      }
+    return (
+      <div class="flex max-w-md border-seafoam items-center flex-col bg-pink align-middle p-2 border-2">
+        <button onClick={this.handleClick} class="hover:bg-red hover:text-pink m-2"> 
+            Draw phrase! 🔖
+        </button>
+        <div class="bg-seafoam m-4 border-2 border-red">
+          {this.state.phrase == null &&
+            <h3 class="py-2 px-4 m-2 text-red">Your phrase will appear here! 🤪</h3>
+          }
+          
+          <h1 class="py-2 px-4 m-2 text-red">{this.state.phrase}</h1>
+        </div>
+      </div>
+    )
   }
 
 }

@@ -1,17 +1,14 @@
 module.exports = {
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      sm: {max: '640px'},
+      md: {max: '768px'},
+      lg: {max: '1024px'},
+      xl: {max: '1280px'},
     },
     container: {
       center: true,
     },
-    // fontFamily: {
-    //   sans: ['Segoe UI', 'Roboto', 'sans-serif'],
-    // },
     borderWidth: {
       default: '1px',
       '0': '0',
@@ -26,6 +23,7 @@ module.exports = {
         dark: '#a01c32',
       },
       pink: '#F7F1F8',
+      blue: "#3182CE",
     },
     extend: {
       colors: {

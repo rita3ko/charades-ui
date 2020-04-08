@@ -1,7 +1,6 @@
 import React from 'react';
 import PhraseGenerator from './components/PhraseGenerator'
 import PhraseSubimitter from './components/PhraseSubmitter'
-import { Redirect } from 'react-router';
 
 class Game extends React.Component {
   constructor(props) {
@@ -40,7 +39,7 @@ class Game extends React.Component {
   render() {
     if (this.state.gameId == null) {
       return (
-        <div class="flex flex-col pt-12 mx-auto m-6 max-w-md">
+        <div class="flex flex-col pt-3 mx-auto m-2 max-w-md">
           <div class="flex-1 bg-pink border-seafoam border-2  m-5">
             <div class="flex flex-col items-center m-2 p-4 ">
               <div class="flex-1 m-2">
@@ -72,20 +71,19 @@ class Game extends React.Component {
       
     } else {
       return (
-        <div class="flex justify-center flex-col items-center">
-          <div class="flex bg-pink text-center content-center m-2  border-seafoam border-2">
+        <div class="flex flex-col items-center">
+          <div class="flex bg-pink m-2  border-seafoam border-2 w-1/2">
             <div class="flex-1  m-2 p-1 text-red text-md font-bold">
-              <h2 >Game ID:</h2>
-            </div>
-            <div class="flex-1 m-2 p-1" >
-              <h2 class="text-md text-red ">{this.state.gameId}</h2>
+              <p class="font-light ">Game ID: {this.state.gameId}</p>
+              <p class="font-light">Share: <a href={"/"+ this.state.gameId} class="text-indigo font-bold">charades.ninja/{this.state.gameId}</a>
+              </p>
             </div>
           </div>
-          <div class="flex">
-            <div class="flex-auto p-2">
+          <div class="flex items-stretch sm:flex-col ">
+            <div class="flex-1 p-2">
               <PhraseSubimitter gameId={this.state.gameId}/>
             </div>
-            <div class="flex-1 p-2">
+            <div class="flex-initial p-2">
               <PhraseGenerator gameId={this.state.gameId}/>
             </div>
           </div>

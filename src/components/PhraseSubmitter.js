@@ -23,7 +23,7 @@ class PhraseGenerator extends React.Component {
 
   render() {
     return (
-        <div class="flex justify-between flex-col border-2 m-2 p-2 border-seafoam bg-pink max-w-md">
+        <div class="flex justify-between flex-col border-2 p-2 border-seafoam bg-pink max-w-md">
           <div class="flex-1 m-2 text-red text-md text-light whitespace-normal">Add some phrases to the bucket for your friends to draw from and act out.</div>
             <form onSubmit={this.handleSubmit}>
               <div class="flex-1 m-2">
