@@ -19,6 +19,11 @@ function App() {
           <Route exact path="/:id" component={Game}/> />
           <Route exact path="/" component={Game} />
         </Switch>
+        <footer>
+          <div class="text-center font-medium text-pink m-5">
+          built on <b><a class="text-red hover:bg-pink" href="https://workers.cloudflare.com/">cloudflare workers</a></b>
+          </div>
+        </footer>
       </Router>
     </div>
   );
