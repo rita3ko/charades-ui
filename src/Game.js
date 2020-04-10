@@ -71,23 +71,24 @@ class Game extends React.Component {
       
     } else {
       return (
-        <div class="flex flex-col items-center">
-          <div class="flex bg-pink m-2  border-seafoam border-2 w-1/2">
-            <div class="flex-1  m-2 p-1 text-red text-md font-bold">
-              <p class="font-light ">Game ID: {this.state.gameId}</p>
-              <p class="font-light">Share: <a href={"/"+ this.state.gameId} class="text-indigo font-bold">charades.ninja/{this.state.gameId}</a>
-              </p>
+        <div class="container mx-auto max-w-3xl sm:max-w-md px-4">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="flex flex-col bg-pink col-span-2 border-seafoam border-2 text-md text-red p-2">
+              <div>
+                <p><b>Game ID:</b> {this.state.gameId +"\n"}</p>
+                <p><b>Share:</b> <a href={"/"+ this.state.gameId} class="text-indigo font-bold">charades.ninja/{this.state.gameId}</a>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="flex items-stretch sm:flex-col ">
-            <div class="flex-1 p-2">
-              <PhraseSubimitter gameId={this.state.gameId}/>
+              <div class="col-span-1 sm:col-span-2">
+                <PhraseSubimitter gameId={this.state.gameId}/>
+              </div>
+              <div class="col-span-1 sm:col-span-2">
+                <PhraseGenerator gameId={this.state.gameId}/>
+              </div>
             </div>
-            <div class="flex-initial p-2">
-              <PhraseGenerator gameId={this.state.gameId}/>
-            </div>
-          </div>
         </div>
+
       )
     }
   }
