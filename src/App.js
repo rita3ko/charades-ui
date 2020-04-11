@@ -4,8 +4,7 @@ import Game from './Game.js'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  useRouteMatch
+  Route
 } from "react-router-dom";
 
 

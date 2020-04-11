@@ -27,7 +27,7 @@ class PhraseGenerator extends React.Component {
             <h3 class="py-2 px-4 m-2 text-red">Your phrase will appear here! 🤪</h3>
           }
           
-          <h1 class="py-2 px-4 m-2 text-red">{this.state.phrase}</h1>
+          <h2 class="py-2 px-4 m-2 text-red">{this.state.phrase}</h2>
         </div>
       </div>
     )

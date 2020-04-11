@@ -76,7 +76,7 @@ class Game extends React.Component {
             <div class="flex flex-col bg-pink col-span-2 border-seafoam border-2 text-md text-red p-2">
               <div>
                 <p><b>Game ID:</b> {this.state.gameId +"\n"}</p>
-                <p><b>Share:</b> <a href={"/"+ this.state.gameId} class="text-indigo font-bold">charades.ninja/{this.state.gameId}</a>
+                <p><b>Share:</b> <a href={"/"+ this.state.gameId} class="text-indigo font-bold">charades.pizza/{this.state.gameId}</a>
                 </p>
               </div>
             </div>
