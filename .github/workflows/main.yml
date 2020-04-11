@@ -11,8 +11,6 @@ jobs:
     name: Deploy
     steps:
     - uses: actions/checkout@v1
-    - name: Navigate to repo
-      run: cd $GITHUB_WORKSPACE
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
