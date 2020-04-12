@@ -20,6 +20,10 @@ a {
   @apply text-indigo underline;
 }
 
+p {
+  @apply leading-loose font-light;
+}
+
 .workers {
   text-shadow: 1px 1px #F7F1F8;
 }

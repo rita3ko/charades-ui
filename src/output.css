@@ -625,6 +625,11 @@ a {
   text-decoration: underline;
 }
 
+p {
+  line-height: 2;
+  font-weight: 300;
+}
+
 .workers {
   text-shadow: 1px 1px #F7F1F8;
 }
