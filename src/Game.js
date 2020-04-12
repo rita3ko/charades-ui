@@ -40,7 +40,7 @@ class Game extends React.Component {
     if (this.state.gameId == null) {
       return (
         <div class="flex flex-col pt-3 mx-auto m-2 max-w-md">
-          <div class="flex-1 bg-pink border-seafoam border-2  m-5">
+          <div class="flex-1 bg-pink border-seafoam border-2  m-2">
             <div class="flex flex-col items-center m-2 p-4 ">
               <div class="flex-1 m-2">
                 <p class="text-red font-black text-2xl">Start a new game</p>
@@ -52,7 +52,7 @@ class Game extends React.Component {
               </div>
             </div>
           </div>
-          <div class="flex-1 bg-pink border-seafoam border-2  m-5">
+          <div class="flex-1 bg-pink border-seafoam border-2  m-2">
             <div class="flex flex-col items-center m-2 p-2 ">
               <div class="flex-1 m-2 text-center ">
                 <h2 class="text-red font-black font-sans text-2xl">Join game</h2>
@@ -71,7 +71,7 @@ class Game extends React.Component {
       
     } else {
       return (
-        <div class="container mx-auto max-w-3xl sm:max-w-md px-4">
+        <div class="container mx-auto max-w-3xl sm:max-w-md px-4  m-5">
           <div class="grid grid-cols-2 gap-4">
             <div class="flex flex-col bg-pink col-span-2 border-seafoam border-2 text-md text-red p-2">
               <div>
