@@ -142,7 +142,7 @@ function Rules() {
       <p>Whoever guessses the last word, gets to go next. Sorry folks, I don't make up the rules.</p>
       <h3 class="font-extrabold mt-2 mb-2 uppercase">Step 6: repeat again (or don't)</h3>
       <p>
-        The game can end whenever you want it to — if you run out of phrases, you can always add more! Or if you run out of time before you run out of phrases, it can be fun to the remaining ones outloud with your friends to see how cruel you or others were (TODO: add a feature for showing all the game words). 
+        The game can end whenever you want it to — if you run out of phrases, you can always add more ! Or if you run out of time before you run out of phrases, it can be fun to the remaining ones outloud with your friends to see how cruel you or others were (TODO: add a feature for showing all the game words). 
       </p>
     </div>
   )
