@@ -56,7 +56,7 @@ function Header() {
 function About() {
   return (
     <div class="flex flex-col justify-center bg-pink border-seafoam border-2 mx-auto max-w-md m-5 p-3 text-red">
-      <h2 class="font-extrabold text-center tracking-wide uppercase mt-2 mb-2 ">About charades.pizza </h2>
+      <h2 class="font-extrabold text-center tracking-wide uppercase mt-2 mb-2 ">About charades.pizza</h2>
       <h3 class="font-extrabold mt-2 mb-2 uppercase">origin story</h3>
       <p>
         Once upon a time, when I was living in Oconee County, GA (suburbs of Athens, GA, near Atlanta, GA, in case you're not familiar...), there was a huge snow storm. In those regions, this means it snowed like 5 inches, and school was out for like a week. Anyway, this was all very exciting since we rarely got snow. However, once the excitement of playing outside wore off, and our fingers were on the fringe of frostbite, we came back inside for dinner, and ended up watching <i>When Harry Met Sally</i> (to this date, one of my favorite movies).
