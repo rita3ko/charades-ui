@@ -72,6 +72,7 @@ function About() {
       <p>
         I'm the product manager for Cloudflare Workers. I tweet and talk about Workers in amounts that would only be reasonable for a union organizer. It's probably the most annoying thing about me to anyone who has to interact with me on a regular basis. 
       </p>
+  
       <p>
         But, it also means I get to have so much fun building what I believe to be the web platform of the future, and in this instance, I get to have fun building on top of the web platform of the future. 
       </p>
