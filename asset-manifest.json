@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/charades-ui/static/css/main.e1ec97c8.chunk.css",
+    "main.js": "/charades-ui/static/js/main.efed440d.chunk.js",
+    "main.js.map": "/charades-ui/static/js/main.efed440d.chunk.js.map",
+    "runtime-main.js": "/charades-ui/static/js/runtime-main.c5fdbdd8.js",
+    "runtime-main.js.map": "/charades-ui/static/js/runtime-main.c5fdbdd8.js.map",
+    "static/js/2.4a686c77.chunk.js": "/charades-ui/static/js/2.4a686c77.chunk.js",
+    "static/js/2.4a686c77.chunk.js.map": "/charades-ui/static/js/2.4a686c77.chunk.js.map",
+    "index.html": "/charades-ui/index.html",
+    "precache-manifest.fca8842b9d119ab9f6f72cffc5b5bd37.js": "/charades-ui/precache-manifest.fca8842b9d119ab9f6f72cffc5b5bd37.js",
+    "service-worker.js": "/charades-ui/service-worker.js",
+    "static/css/main.e1ec97c8.chunk.css.map": "/charades-ui/static/css/main.e1ec97c8.chunk.css.map",
+    "static/js/2.4a686c77.chunk.js.LICENSE.txt": "/charades-ui/static/js/2.4a686c77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5fdbdd8.js",
+    "static/js/2.4a686c77.chunk.js",
+    "static/css/main.e1ec97c8.chunk.css",
+    "static/js/main.efed440d.chunk.js"
+  ]
+}
