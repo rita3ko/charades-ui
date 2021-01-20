@@ -35,7 +35,7 @@ function App() {
 function Header() {
   return (
     <div>
-        <div class="m-2 text-center font-bold text-seafoam text-5xl sm:text-3xl"> <h1>🍕 C H A R A D E S 🍕</h1>
+        <div class="m-2 text-center font-bold text-seafoam text-5xl sm:text-3xl"> <h1>🍕 H E L L O 🍕</h1>
         </div>
         <div class="flex justify-center">
           <ul class="flex self-center">
