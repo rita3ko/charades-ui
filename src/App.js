@@ -86,7 +86,7 @@ function About() {
         <b>Front-end:</b>
       </p>
       <ul class="list-disc list-inside font-thin leading-loose">
-          <li><a href="https://workers.cloudflare.com/sites">Workers Sites</a> for hosting</li>
+          <li><a href="https://pages.cloudflare.com/">Cloudflare Pages</a> for hosting</li>
           <li>Using <a href="https://github.com/cloudflare/react-workers-template">create-react-app template</a></li>
           <li>React</li>
           <li><a href="https://tailwindcss.com/">Tailwind CSS</a> (wowow, I still suck at css, but that's the only reason this website looks remotely presentable)</li>
