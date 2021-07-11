@@ -59,10 +59,10 @@ function Header() {
 function About() {
   return (
     <div class="flex flex-col justify-center bg-pink border-seafoam border-2 mx-auto max-w-md m-5 p-3 text-red">
-      <h2 class="font-extrabold text-center tracking-wide uppercase mt-2 mb-2 ">About charades.pizza </h2>
+      <h2 class="font-extrabold text-center tracking-wide uppercase mt-2 mb-2 ">About charades.pizza</h2>
       <h3 class="font-extrabold mt-2 mb-2 uppercase">origin story</h3>
       <p>
-        Once upon a time, when I was living in Oconee County, GA (suburbs of Athens, GA, nead Atlanta, GA, in case you're not familiar...), there was a huge snow storm. In those regions, this means it snowed like 5 inches, and school was out for like a week. Anyway, this was all very exciting since we rarely got snow. However, once the excitement of playing outside wore off, and our fingers were on the fringe of frostbite, we came back inside for dinner, and ended up watching <i>When Harry Met Sally</i> (to this date, one of my favorite movies).
+        Once upon a time, when I was living in Oconee County, GA (suburbs of Athens, GA, near Atlanta, GA, in case you're not familiar...), there was a huge snow storm. In those regions, this means it snowed like 5 inches, and school was out for like a week. Anyway, this was all very exciting since we rarely got snow. However, once the excitement of playing outside wore off, and our fingers were on the fringe of frostbite, we came back inside for dinner, and ended up watching <i>When Harry Met Sally</i> (to this date, one of my favorite movies).
       </p>
       <p>
         One of the great scenes of <i>When Harry Met Sally</i>, of course, is when the play charades, and Sally is  (<b>**spoiler alert!!**</b>) trying to express the phrase "baby talk", but someone keeps guessing "Baby fish mouth! Baby fish mouth!" (ok, ok, technically, it's not charades, it's pictionary, but whatever). It inspired us all to play charades together: my two best friends, one of my best friends' parents, and I. It's one of my favorite memories to date (I even remember some of the phrases we acted out included: "Proust", "Bora! Bora! Bora!", and "Free kittens!", which as I acted it out, everyone kept guessing as "Kittens on Parade!"). 
@@ -75,6 +75,7 @@ function About() {
       <p>
         I'm the product manager for Cloudflare Workers. I tweet and talk about Workers in amounts that would only be reasonable for a union organizer. It's probably the most annoying thing about me to anyone who has to interact with me on a regular basis. 
       </p>
+  
       <p>
         But, it also means I get to have so much fun building what I believe to be the web platform of the future, and in this instance, I get to have fun building on top of the web platform of the future. 
       </p>
