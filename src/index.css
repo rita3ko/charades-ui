@@ -25,7 +25,7 @@ p {
 }
 
 .workers {
-  text-shadow: 1px 1px #F7F1F8;
+  text-shadow: 1px 1px #F7F111;
 }
 
 @tailwind components;
